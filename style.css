@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 992px){
+    html{
+        font-size: 1.5rem;
+    }
+}
+
+
+#brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 11vh;
+    display: inline-block;
+    letter-spacing: 0.1;
+}
+
+.listTitle{
+    color: gray;
+    font-weight: bold;
+}
+
+/*
+    oscuro
+*/
+*{
+    color: #fff;
+}
+
+
+html, body, div{
+    background-color: #181A1B;
+}
+
+
+nav, nav > .container{
+    background-color: #000;
+}
+
+.card > .card-header{
+    background-color: #17191A;
+}
+
+#testimonios, .cc{
+    background-color: #232627 !important;
+}
+
+/*
+*{
+    background-color: #000;
+}
+
+html, body, div{
+    background-color: #000;
+}
+
+
+nav, nav > .container{
+    background-color: #000;
+}
+
+.card > .card-header{
+    background-color: #000;
+}
+
+#testimonios, .cc{
+    background-color: #000 !important;
+}
+
+,.container{
+    max-width: 100px;
+}
+*/
